@@ -8,12 +8,12 @@ Specifically, the objectives are:
 
 # Data Dictionary 
 The data contains information regarding the interaction of users in both groups with the two versions of the landing page.
-# user_id - Unique user ID of the person visiting the website
-# group - Whether the user belongs to the first group (control) or the second group (treatment)
-# landing_page - Whether the landing page is new or old
-# time_spent_on_the_page - Time (in minutes) spent by the user on the landing page
-# converted - Whether the user gets converted to a subscriber of the news portal or not
-# language_preferred - Language chosen by the user to view the landing page
+user_id - Unique user ID of the person visiting the website
+group - Whether the user belongs to the first group (control) or the second group (treatment)
+landing_page - Whether the landing page is new or old
+time_spent_on_the_page - Time (in minutes) spent by the user on the landing page
+Converted - Whether the user gets converted to a subscriber of the news portal or not
+language_preferred - Language chosen by the user to view the landing page
 
 # Solution Approach
 **Data Preparation:** Load and clean the data, ensuring variables are in the correct format and addressing any missing or outlier values.
